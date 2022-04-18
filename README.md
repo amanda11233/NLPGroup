@@ -20,8 +20,8 @@
 
 ### Libraries Used
 
-[Hugging face]: https://huggingface.co
-[Ecco]: https://github.com/jalammar/ecco
+[Hugging face](https://huggingface.co)
+[Ecco](https://github.com/jalammar/ecco)
 [BERTviz]: https://github.com/jessevig/bertviz#:~:text=BertViz%20is%20an%20interactive%20tool,that%20supports%20most%20Huggingface%20models.
 
 ##### Code Reference
