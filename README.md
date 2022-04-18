@@ -1,4 +1,4 @@
-# NLP Group Project (Analysis on attention of pretrained models (T5, BART))
+# Analysis on attention of pretrained models (T5, BART)
 
 #### Group Members:
 - Amanda Raj Shrestha (st122245)
@@ -20,7 +20,7 @@
 
 ### Libraries Used
 
-- [Hugging Face]: https://huggingface.co
+-  https://huggingface.co
 - [Ecco]: https://github.com/jalammar/ecco
 - [BERTviz]: https://github.com/jessevig/bertviz#:~:text=BertViz%20is%20an%20interactive%20tool,that%20supports%20most%20Huggingface%20models.
 
