@@ -1,4 +1,4 @@
-# Analysis on attention of pretrained models (T5, BART)
+# Analysis of Attention on Text Summarization Models
 
 #### Group Members:
 - Amanda Raj Shrestha (st122245)
