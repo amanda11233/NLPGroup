@@ -1,0 +1,39 @@
+Do Transformer Attention Heads Provide Transparency in Abstractive Summarization
+
+Problem:
+In commonly used architectures and Transformers, a lot of computation takes place between an input token and the hidden state
+So it is unclear whether the hidden state that an attention weight operates on corresponds to its input token. 
+The interpretable heatmap over the input sequence are usually cherry picked and do not necessarily generalize over all examples
+Different attention distributions can lead to the same model output, which imples that "attention is not explanation"
+
+
+Work contributions:
+quantitative metrics that measure the degree to which attention heads specialize towards attending Part-Of-Sppech, Named Entity tags and relative position
+a method for adversarial attacks on seq2seq Transformers to assess the effect of individual attention heads on model output
+
+
+
+Heads specialize towards linguistically interpretable roles, but that a majority can be pruned after training without affecting performance.
+
+attention is commonly claimed to provide insight into model dynamics.
+1. attention should correlate with feature importance measures.
+2. adversarially crafted attention distributions should lead to different predictions, or be considered equally plausible explanations. 
+
+Attention heatmaps shoud not be so easily assumed to provide transparency for model predictions.
+
+Cross-attention:
+computing scores between encoder and decoder hidden states 
+
+This work differs from other related work in 3 differnt ways:
+1. We introduce threee metrics relevant to summarization to quantify patterns in attention
+2. We analyze the decoder cross-attention in addition to the encoder self-attention
+3. Input sequences are significantly lionfer than the short sentences used in previous work
+
+
+Qualitative approach
+
+Vast majority of the attention heads seem to focus on preceding, succeding or surrounding words.
+For the decoder, several heads find an occurence of the currently or previously decoded word. Some hjeads seem to focus on punctuation and delimiters overall.
+
+Relative Position:
+Record how often the maximum attention weight is on preceding or successive tokens relative to the token currently being encoded or decoded.
