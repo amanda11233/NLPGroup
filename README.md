@@ -32,7 +32,7 @@ Ecco:
 https://github.com/jalammar/ecco
 
 BERTviz: 
-https://github.com/jessevig/bertviz#:~:text=BertViz%20is%20an%20interactive%20tool,that%20supports%20most%20Huggingface%20models.
+https://github.com/jessevig/bertviz.
 
 ##### Code Reference
 clarkkev/attention-analysis: 
