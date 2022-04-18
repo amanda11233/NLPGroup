@@ -2,8 +2,8 @@
 
 #### Group Members:
 - Amanda Raj Shrestha (st122245)
-- Omer Farooq Bhatti
-- Harold Popluhar
+- Omer Farooq Bhatti (st122498)
+- Harold Popluhar (st122556)
 
 ### Referenced Papers
 What Does BERT Look At? An Analysis of BERT's Attention: 
