@@ -25,13 +25,16 @@ https://arxiv.org/abs/1910.10683
 
 ### Libraries Used
 
-[Hugging face]: 
+Hugging face: 
 https://huggingface.co
-[Ecco]: 
+
+Ecco: 
 https://github.com/jalammar/ecco
-[BERTviz]: 
+
+BERTviz: 
 https://github.com/jessevig/bertviz#:~:text=BertViz%20is%20an%20interactive%20tool,that%20supports%20most%20Huggingface%20models.
 
 ##### Code Reference
-[clarkkev/attention-analysis]: https://github.com/clarkkev/attention-analysis
+clarkkev/attention-analysis: 
+https://github.com/clarkkev/attention-analysis
 
